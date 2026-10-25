@@ -20,8 +20,7 @@ public class Main {
                             " 3. Agregar empleado express\n" +
                             " 4. Mostrar envios\n" +
                             " 5. Buscar envio por su codigo\n" +
-                            " 6. Mostrar envio más caro \n" +
-                            " 7. "));
+                            " 6. Mostrar envio más caro"));
 
             switch (opcion) {
                 case 1:
