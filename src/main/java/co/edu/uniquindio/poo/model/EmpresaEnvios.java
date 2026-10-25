@@ -40,7 +40,7 @@ public class EmpresaEnvios {
         }
     }
 
-    private Optional<Envio> buscarEnvio(String codigo) {
+    public Optional<Envio> buscarEnvio(String codigo) {
         return listaEnvios.
                 stream().
                 filter(e -> e.getCodigo().equals(codigo)).findFirst();
@@ -54,5 +54,10 @@ public class EmpresaEnvios {
             }
         }
         return envioCaro;
+    }
+    public String mostrarEnvios(){
+        String mensaje=" || ENVIOS || \n";
+        mensaje+=listaEnvios;
+        return mensaje;
     }
 }

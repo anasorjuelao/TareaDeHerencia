@@ -68,7 +68,7 @@ public abstract class Envio {
     }
 
 
-    public double calcularFijo(){
+    public float calcularFijo(){
         return precioFijo + pesoKilogramos*precioFijo;
     }
 
